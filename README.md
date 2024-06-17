@@ -17,6 +17,7 @@
   - [Sabertooth 2x25 Motor Controller](#sabertooth-2x25-motor-controller)
   - [Raspberry Pi 4 Model B](#raspberry-pi-4-model-b)
   - [Teensy 4.1](#teensy-41)
+- [Helpful Resources](#helpfull-resources)
 - [Authors](#authors)
 
 <!-- codebase -->
@@ -68,7 +69,7 @@ The bulk of our code resides in this repository. It is a docker application whic
   <img height=150px src=https://github.com/roboticsatiowa/Documents-and-Resources/blob/main/Media/Teensy41.png?raw=true><br>
   Microcontroller that can be programmed with the Arduino IDE. It lacks the processing power of the Raspberry Pi and has no operating system, but has more I/O. We use it to interface with sensors and motor controllers.
 
-## Helpfull Resources
+## Helpful Resources
 
 - ROS2
   - [Documentation](https://docs.ros.org/en/humble/index.html)
