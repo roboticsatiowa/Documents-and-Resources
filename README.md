@@ -42,7 +42,10 @@ The bulk of our code resides in this repository. It is a docker application whic
   <b>DM542T Stepper Motor Driver</b><br>
   Datasheet: <a href=https://github.com/roboticsatiowa/Documents-and-Resources/blob/main/Datasheets/DM542T.pdf>Local</a> - <a href=https://www.omc-stepperonline.com/download/DM542T.pdf>External</a><br>
   <img height=150px src=https://github.com/roboticsatiowa/Documents-and-Resources/blob/main/Media/DM542T.png?raw=true><br>
-  Receives input from a microcontroller and high voltage from a power supply to drive a stepper motor.
+  <details>
+    <summary>Description</summary>
+    Receives input from a microcontroller and high voltage from a power supply to drive a stepper motor. It takes 6 data pins: PUL+, PUL-, DIR+, DIR-, ENA+, and ENA-. Of these 6 data pins, 3 of them are grounds (PUL-, DIR- and ENA-). The ground pins can be ignored because their only purpose is to complete the electrical circuit so current can flow. ENA+ is left unconnected and can be ignored. This leaves 2 pins of importance: PUL+ and DIR+. DIR+ controls the direction of the stepper motor. When it is held high (3.3 volts or 5 volts) the motor will spin in one direction, then when its low (0 volts) it will spin in the opposite direction. PUL+ is a square wave that controls the speed of the motor. When there is no signal (0 volts) the motor will be stationary. When there is a square wave the motor will increment a small step each time the pin is pulsed. Rapid pulses will result in a high motor speed, while slow pulses will result in a slow motor speed.
+  </details>
 </div>
 <br>
 <br>
