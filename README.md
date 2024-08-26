@@ -79,8 +79,10 @@ The bulk of our code resides in this repository. It is a docker application whic
     Microcontroller that can be programmed with the Arduino IDE. It lacks the processing power of the Raspberry Pi and has no operating system, but has more I/O. We use it to interface with sensors and motor controllers.
   </details>
 </div>
+<br>
+
+#### Battery
 <div>
-  <b>Battery</b><br>
   Store Page: <a href=https://zeeebattery.com/products/zeee-6s-lipo-battery-22-2v-100c-6000mah-ec5>External</a><br>
   <img height=150px src="https://zeeebattery.com/cdn/shop/files/1-1_e826b90e-5d53-44cd-8a35-02282e267e40_597x597.jpg?v=1710928065=true"><br>
   <details>
