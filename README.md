@@ -87,6 +87,14 @@ The bulk of our code resides in this repository. It is a docker application whic
   
 </div>
 
+## Acronyms and Terminology
+
+| Word/Acronym | Acronym Definition                  | Description                                                             | Additional links/information |
+| :----------- | :---------------------------------- | :---------------------------------------------------------------------- | :--------------------------- |
+| PWM          | Pulse Width Modulation              | A voltage square wave of varying frequency and duty cycle               |                              |
+| Duty Cycle   | N/A                                 | The ratio of high time to low time in a periodic square wave (PWM)      |                              |
+
+
 ## Helpful Resources
 
 - ROS2
