@@ -47,32 +47,34 @@ The bulk of our code resides in this repository. It is a docker application whic
     Receives input from a microcontroller and high voltage from a power supply to drive a stepper motor. It takes 6 data pins: PUL+, PUL-, DIR+, DIR-, ENA+, and ENA-. Of these 6 data pins, 3 of them are grounds (PUL-, DIR- and ENA-). The ground pins can be ignored because their only purpose is to complete the electrical circuit so current can flow. ENA+ is left unconnected and can be ignored. This leaves 2 pins of importance: PUL+ and DIR+. DIR+ controls the direction of the stepper motor. When it is held high (3.3 volts or 5 volts) the motor will spin in one direction, then when its low (0 volts) it will spin in the opposite direction. PUL+ is a square wave that controls the speed of the motor. When there is no signal (0 volts) the motor will be stationary. When there is a square wave the motor will increment a small step each time the pin is pulsed. Rapid pulses will result in a high motor speed, while slow pulses will result in a slow motor speed.
   </details>
 </div>
-<br>
-<br>
 <div>
   <b>Sabertooth 2x25 Motor Controller</b><br>
   Datasheet: <a href=https://github.com/roboticsatiowa/Documents-and-Resources/blob/main/Datasheets/Sabertooth2x25.pdf>Local</a> - <a href=TBD>External</a><br>
   <img height=150px src=https://github.com/roboticsatiowa/Documents-and-Resources/blob/main/Media/Sabertooth.png?raw=true><br>
-  Dual motor controller that can be be controlled via serial. Outputs 25A to 2 motors, hence the name 2x25.
+  <details>
+    <summary>Description</summary>
+    Dual motor controller that can be be controlled via serial. Outputs 25A to 2 motors, hence the name 2x25.
+  </details>
 </div>
-<br>
-<br>
 <div>
   <b>Raspberry Pi 4 Model B</b><br>
   Documentation: <a href=https://www.raspberrypi.com/documentation/computers/>External</a><br>
   <img height=150px src=https://github.com/roboticsatiowa/Documents-and-Resources/blob/main/Media/RaspberryPi4.png?raw=true><br>
-  Miniature computer often runnning Linux that can be used for a variety of applications.. We use it as our main onboard computer.
+  <details>
+    <summary>Description</summary>
+    Miniature computer often runnning Linux that can be used for a variety of applications.. We use it as our main onboard computer.
+  </details>
 </div>
-<br>
-<br>
 <!-- Teensy 4.1 -->
 <div>
   <b>Teensy 4.1</b><br>
   Documentation: <a href=https://www.pjrc.com/store/teensy41.html>External</a> (scroll for datasheets)<br>
   <img height=150px src=https://github.com/roboticsatiowa/Documents-and-Resources/blob/main/Media/Teensy41.png?raw=true><br>
-  Microcontroller that can be programmed with the Arduino IDE. It lacks the processing power of the Raspberry Pi and has no operating system, but has more I/O. We use it to interface with sensors and motor controllers.
+  <details>
+    <summary>Description</summary>
+    Microcontroller that can be programmed with the Arduino IDE. It lacks the processing power of the Raspberry Pi and has no operating system, but has more I/O. We use it to interface with sensors and motor controllers.
+  </details>
 </div>
-<br>
 <div>
   <b>Battery</b><br>
   Store Page: <a href=https://zeeebattery.com/products/zeee-6s-lipo-battery-22-2v-100c-6000mah-ec5>External</a><br>
