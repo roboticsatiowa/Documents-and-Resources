@@ -89,10 +89,14 @@ The bulk of our code resides in this repository. It is a docker application whic
 
 ## Acronyms and Terminology
 
-| Word/Acronym | Acronym Definition                  | Description                                                               | Additional links/information |
-| :----------- | :---------------------------------- | :------------------------------------------------------------------------ | :--------------------------- |
-| PWM          | Pulse Width Modulation              | A voltage square wave of varying frequency and duty cycle                 |                              |
-| Duty Cycle   | N/A                                 | The ratio of high time to low time in a square wave given as a percentage |                              |
+| Word/Acronym | Acronym Definition                  | Description                                                                                          | Additional links/information |
+| :----------- | :---------------------------------- | :--------------------------------------------------------------------------------------------------- | :--------------------------- |
+| PWM          | Pulse Width Modulation              | A voltage square wave of varying frequency and duty cycle                                            |                              |
+| Duty Cycle   | N/A                                 | The ratio of high time to low time in a square wave given as a percentage                            |                              |
+| Serial       | N/A                                 | A type of communication between computers where data is sent 1 bit at a time                         |                              |
+| Kernal       | N/A                                 | Software that bridges between computer hardware and software. manages memory, threads, etc.          |                              |
+| Linux        | N/A                                 | An operating system kernal often used because of its customizability and reliability                 |                              |
+| Linux Distro | Linux Distribution                  | Different versions of linux which all use the same kernal but different customization out of the box |                              |
 
 
 ## Helpful Resources
@@ -104,6 +108,7 @@ The bulk of our code resides in this repository. It is a docker application whic
 - Docker
   - [Website](https://www.docker.com/)
   - [Docker in 100 Seconds (YouTube)](https://www.youtube.com/watch?v=Gjnup-PuquQ)
+  - [Learn Docker in 7 Easy Steps (YouTube)](https://www.youtube.com/watch?v=gAkwW2tuIqE)
 - Raspberry Pi
   - [Website](https://www.raspberrypi.org/)
   - [Raspberry Pi in 100 Seconds (YouTube)](https://www.youtube.com/watch?v=eZ74x6dVYes)
