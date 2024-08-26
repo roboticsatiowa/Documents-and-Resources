@@ -71,6 +71,19 @@ The bulk of our code resides in this repository. It is a docker application whic
   Documentation: <a href=https://www.pjrc.com/store/teensy41.html>External</a> (scroll for datasheets)<br>
   <img height=150px src=https://github.com/roboticsatiowa/Documents-and-Resources/blob/main/Media/Teensy41.png?raw=true><br>
   Microcontroller that can be programmed with the Arduino IDE. It lacks the processing power of the Raspberry Pi and has no operating system, but has more I/O. We use it to interface with sensors and motor controllers.
+</div>
+<br>
+<div>
+  <b>Battery</b><br>
+  Store Page: <a href=https://zeeebattery.com/products/zeee-6s-lipo-battery-22-2v-100c-6000mah-ec5>External</a><br>
+  <img height=150px src="https://zeeebattery.com/cdn/shop/files/1-1_e826b90e-5d53-44cd-8a35-02282e267e40_597x597.jpg?v=1710928065=true"><br>
+  <details>
+    <summary>Description</summary>
+    <b>BATTERIES ARE EXTREMELY DANGEROUS. FIND AN EXPERIENCED MEMBER TO HELP</b><br>
+    This is a 6000 mah 6S LiPo battery. This means that it contains 6 lithium polymer (LiPo) cells in series and has a total capacity of 6000 milliamp-hours (1 amp-hour per cell). a LiPo battery has a minimum and maximum voltage of 3.2 and 4.2 volts respectivly. This means there is a total range of 19.2 to 25.2 volts. If the battery is overcharged or over discharged outside this range it will degrade in performance immediately. Use extreme caution not to overcharge or overdischarge the batteries. 
+  </details>
+  
+</div>
 
 ## Helpful Resources
 
