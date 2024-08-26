@@ -80,7 +80,7 @@ The bulk of our code resides in this repository. It is a docker application whic
   <details>
     <summary>Description</summary>
     <b>BATTERIES ARE EXTREMELY DANGEROUS. FIND AN EXPERIENCED MEMBER TO HELP</b><br>
-    This is a 6000 mah 6S LiPo battery. This means that it contains 6 lithium polymer (LiPo) cells in series and has a total capacity of 6000 milliamp-hours (1 amp-hour per cell). a LiPo battery has a minimum and maximum voltage of 3.2 and 4.2 volts respectivly. This means there is a total range of 19.2 to 25.2 volts. If the battery is overcharged or over discharged outside this range it will degrade in performance immediately. Use extreme caution not to overcharge or overdischarge the batteries. 
+    This is a 6000 mah 6S LiPo battery. This means that it contains 6 lithium polymer (LiPo) cells in series and has a total capacity of 6000 milliamp-hours (1 amp-hour per cell). a LiPo battery has a minimum and maximum voltage of 3.2 and 4.2 volts respectivly. This means there is a total range of 19.2 to 25.2 volts. If the battery is overcharged or over discharged outside this range it will degrade in performance rapidly and immediately. Use extreme caution not to overcharge or overdischarge the batteries. 
   </details>
   
 </div>
