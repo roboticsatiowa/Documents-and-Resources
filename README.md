@@ -109,6 +109,8 @@ Teensy is a line of microcontrollers known for its superior compute performance 
   - [Raspberry Pi in 100 Seconds (YouTube)](https://www.youtube.com/watch?v=eZ74x6dVYes)
 - Foxglove Studio
   - [Website](https://foxglove.dev/)
+- Zenoh middleware
+  - [](https://zenoh.io/blog/2021-09-28-iac-experiences-from-the-trenches/)
 ## ✍️ Authors <a name = "authors"></a>
 
 - [@ethanholter](https://github.com/ethanholter) - Responsible for this mess :\)
