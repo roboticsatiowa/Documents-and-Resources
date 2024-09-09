@@ -1,9 +1,227 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.12">
   <diagram name="Page-1" id="U4LzexEA5z4gXmBC9XQn">
-    <mxGraphModel>
+    <mxGraphModel dx="875" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="nOU4_NgVh6XaABi12xhm-1" value="Battery Enclosure" style="swimlane;whiteSpace=wrap;html=1;spacingLeft=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="130" height="230" as="geometry">
+            <mxRectangle x="130" y="170" width="140" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nOU4_NgVh6XaABi12xhm-2" value="6S LiPo Battery&lt;div&gt;6000 mAh&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="nOU4_NgVh6XaABi12xhm-1">
+          <mxGeometry x="10" y="30" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nOU4_NgVh6XaABi12xhm-6" value="&lt;p style=&quot;line-height: 70%;&quot;&gt;DE-9&lt;/p&gt;" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.miscellaneous.small_d_connector;horizontal=1;spacingLeft=0;spacingBottom=0;spacing=0;spacingTop=-35;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;rounded=0;" vertex="1" parent="nOU4_NgVh6XaABi12xhm-1">
+          <mxGeometry x="10" y="190" width="65" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nOU4_NgVh6XaABi12xhm-8" value="&lt;pre style=&quot;font-size: 6px; line-height: 0%;&quot;&gt;Balancing Lead&lt;/pre&gt;" style="verticalLabelPosition=bottom;shadow=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transmission.8_line_bus;rotation=90;spacingLeft=0;spacingTop=-6;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;rounded=0;" vertex="1" parent="nOU4_NgVh6XaABi12xhm-1">
+          <mxGeometry x="10" y="149.04000000000002" width="58.99" height="22.87" as="geometry" />
+        </mxCell>
+        <mxCell id="nOU4_NgVh6XaABi12xhm-57" value="XT-90" style="whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=0;labelBackgroundColor=none;" vertex="1" parent="nOU4_NgVh6XaABi12xhm-1">
+          <mxGeometry x="85" y="190" width="35" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nOU4_NgVh6XaABi12xhm-75" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.863;entryY=0.99;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#A8201A;fontColor=default;fillColor=#FAE5C7;shape=link;edgeStyle=elbowEdgeStyle;elbow=vertical;labelBackgroundColor=none;" edge="1" parent="nOU4_NgVh6XaABi12xhm-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="102.21714285714289" y="190" as="sourcePoint" />
+            <mxPoint x="102.29000000000006" y="129" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nOU4_NgVh6XaABi12xhm-79" value="&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;monospace&quot; style=&quot;font-size: 7px;&quot;&gt;Main Leads&lt;/font&gt;&lt;/pre&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;textDirection=vertical-lr;spacingTop=-16;spacingLeft=-22;fontSize=6;rounded=0;labelBackgroundColor=none;" vertex="1" connectable="0" parent="nOU4_NgVh6XaABi12xhm-75">
+          <mxGeometry x="-0.3282" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nOU4_NgVh6XaABi12xhm-52" value="Each battery enclosure includes a rail&amp;nbsp;&lt;div&gt;system allowing&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;it to automatically make&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;the appropriate&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;connections&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;when inserted&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#143642;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="10" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nOU4_NgVh6XaABi12xhm-53" value="&lt;pre style=&quot;font-size: 6px; line-height: 0%;&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="verticalLabelPosition=bottom;shadow=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transmission.8_line_bus;rotation=90;spacingLeft=0;spacingTop=-6;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="250" width="58.99" height="22.87" as="geometry" />
+        </mxCell>
+        <mxCell id="nOU4_NgVh6XaABi12xhm-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="280" as="targetPoint" />
+            <mxPoint x="120" y="230" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nOU4_NgVh6XaABi12xhm-19" value="-" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#143642;rounded=0;" vertex="1" connectable="0" parent="nOU4_NgVh6XaABi12xhm-17">
+          <mxGeometry x="0.5191" y="-2" relative="1" as="geometry">
+            <mxPoint x="2" y="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nOU4_NgVh6XaABi12xhm-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="280" as="targetPoint" />
+            <mxPoint x="100" y="230" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nOU4_NgVh6XaABi12xhm-18" value="+" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#143642;rounded=0;" vertex="1" connectable="0" parent="nOU4_NgVh6XaABi12xhm-14">
+          <mxGeometry x="0.5453" y="-4" relative="1" as="geometry">
+            <mxPoint y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nOU4_NgVh6XaABi12xhm-82" value="Battery Enclosure" style="swimlane;whiteSpace=wrap;html=1;spacingLeft=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="10" width="130" height="230" as="geometry">
+            <mxRectangle x="130" y="170" width="140" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nOU4_NgVh6XaABi12xhm-83" value="6S LiPo Battery&lt;div&gt;6000 mAh&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="nOU4_NgVh6XaABi12xhm-82">
+          <mxGeometry x="10" y="30" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nOU4_NgVh6XaABi12xhm-84" value="&lt;p style=&quot;line-height: 70%;&quot;&gt;DE-9&lt;/p&gt;" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.miscellaneous.small_d_connector;horizontal=1;spacingLeft=0;spacingBottom=0;spacing=0;spacingTop=-35;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;rounded=0;" vertex="1" parent="nOU4_NgVh6XaABi12xhm-82">
+          <mxGeometry x="10" y="190" width="65" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nOU4_NgVh6XaABi12xhm-85" value="&lt;pre style=&quot;font-size: 6px; line-height: 0%;&quot;&gt;Balancing Lead&lt;/pre&gt;" style="verticalLabelPosition=bottom;shadow=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transmission.8_line_bus;rotation=90;spacingLeft=0;spacingTop=-6;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;rounded=0;" vertex="1" parent="nOU4_NgVh6XaABi12xhm-82">
+          <mxGeometry x="10" y="149.04000000000002" width="58.99" height="22.87" as="geometry" />
+        </mxCell>
+        <mxCell id="nOU4_NgVh6XaABi12xhm-86" value="XT-90" style="whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=0;labelBackgroundColor=none;" vertex="1" parent="nOU4_NgVh6XaABi12xhm-82">
+          <mxGeometry x="85" y="190" width="35" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nOU4_NgVh6XaABi12xhm-87" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.863;entryY=0.99;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#A8201A;fontColor=default;fillColor=#FAE5C7;shape=link;edgeStyle=elbowEdgeStyle;elbow=vertical;labelBackgroundColor=none;" edge="1" parent="nOU4_NgVh6XaABi12xhm-82">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="102.21714285714289" y="190" as="sourcePoint" />
+            <mxPoint x="102.29000000000006" y="129" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nOU4_NgVh6XaABi12xhm-88" value="&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;monospace&quot; style=&quot;font-size: 7px;&quot;&gt;Main Leads&lt;/font&gt;&lt;/pre&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;textDirection=vertical-lr;spacingTop=-16;spacingLeft=-22;fontSize=6;rounded=0;labelBackgroundColor=none;" vertex="1" connectable="0" parent="nOU4_NgVh6XaABi12xhm-87">
+          <mxGeometry x="-0.3282" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nOU4_NgVh6XaABi12xhm-89" value="&lt;pre style=&quot;font-size: 6px; line-height: 0%;&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="verticalLabelPosition=bottom;shadow=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transmission.8_line_bus;rotation=90;spacingLeft=0;spacingTop=-6;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="250" width="58.99" height="22.87" as="geometry" />
+        </mxCell>
+        <mxCell id="nOU4_NgVh6XaABi12xhm-90" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="280" as="targetPoint" />
+            <mxPoint x="260" y="230" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nOU4_NgVh6XaABi12xhm-91" value="-" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#143642;rounded=0;" vertex="1" connectable="0" parent="nOU4_NgVh6XaABi12xhm-90">
+          <mxGeometry x="0.5191" y="-2" relative="1" as="geometry">
+            <mxPoint x="2" y="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nOU4_NgVh6XaABi12xhm-92" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="280" as="targetPoint" />
+            <mxPoint x="240" y="230" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nOU4_NgVh6XaABi12xhm-93" value="+" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#143642;rounded=0;" vertex="1" connectable="0" parent="nOU4_NgVh6XaABi12xhm-92">
+          <mxGeometry x="0.5453" y="-4" relative="1" as="geometry">
+            <mxPoint y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nOU4_NgVh6XaABi12xhm-94" value="Battery Enclosure" style="swimlane;whiteSpace=wrap;html=1;spacingLeft=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="10" width="130" height="230" as="geometry">
+            <mxRectangle x="130" y="170" width="140" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nOU4_NgVh6XaABi12xhm-95" value="6S LiPo Battery&lt;div&gt;6000 mAh&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="nOU4_NgVh6XaABi12xhm-94">
+          <mxGeometry x="10" y="30" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nOU4_NgVh6XaABi12xhm-96" value="&lt;p style=&quot;line-height: 70%;&quot;&gt;DE-9&lt;/p&gt;" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.miscellaneous.small_d_connector;horizontal=1;spacingLeft=0;spacingBottom=0;spacing=0;spacingTop=-35;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;rounded=0;" vertex="1" parent="nOU4_NgVh6XaABi12xhm-94">
+          <mxGeometry x="10" y="190" width="65" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nOU4_NgVh6XaABi12xhm-97" value="&lt;pre style=&quot;font-size: 6px; line-height: 0%;&quot;&gt;Balancing Lead&lt;/pre&gt;" style="verticalLabelPosition=bottom;shadow=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transmission.8_line_bus;rotation=90;spacingLeft=0;spacingTop=-6;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;rounded=0;" vertex="1" parent="nOU4_NgVh6XaABi12xhm-94">
+          <mxGeometry x="10" y="149.04000000000002" width="58.99" height="22.87" as="geometry" />
+        </mxCell>
+        <mxCell id="nOU4_NgVh6XaABi12xhm-98" value="XT-90" style="whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=0;labelBackgroundColor=none;" vertex="1" parent="nOU4_NgVh6XaABi12xhm-94">
+          <mxGeometry x="85" y="190" width="35" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nOU4_NgVh6XaABi12xhm-99" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.863;entryY=0.99;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#A8201A;fontColor=default;fillColor=#FAE5C7;shape=link;edgeStyle=elbowEdgeStyle;elbow=vertical;labelBackgroundColor=none;" edge="1" parent="nOU4_NgVh6XaABi12xhm-94">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="102.21714285714289" y="190" as="sourcePoint" />
+            <mxPoint x="102.29000000000006" y="129" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nOU4_NgVh6XaABi12xhm-100" value="&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;monospace&quot; style=&quot;font-size: 7px;&quot;&gt;Main Leads&lt;/font&gt;&lt;/pre&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;textDirection=vertical-lr;spacingTop=-16;spacingLeft=-22;fontSize=6;rounded=0;labelBackgroundColor=none;" vertex="1" connectable="0" parent="nOU4_NgVh6XaABi12xhm-99">
+          <mxGeometry x="-0.3282" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nOU4_NgVh6XaABi12xhm-101" value="&lt;pre style=&quot;font-size: 6px; line-height: 0%;&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="verticalLabelPosition=bottom;shadow=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transmission.8_line_bus;rotation=90;spacingLeft=0;spacingTop=-6;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="250" width="58.99" height="22.87" as="geometry" />
+        </mxCell>
+        <mxCell id="nOU4_NgVh6XaABi12xhm-102" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="280" as="targetPoint" />
+            <mxPoint x="400" y="230" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nOU4_NgVh6XaABi12xhm-103" value="-" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#143642;rounded=0;" vertex="1" connectable="0" parent="nOU4_NgVh6XaABi12xhm-102">
+          <mxGeometry x="0.5191" y="-2" relative="1" as="geometry">
+            <mxPoint x="2" y="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nOU4_NgVh6XaABi12xhm-104" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="280" as="targetPoint" />
+            <mxPoint x="380" y="230" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nOU4_NgVh6XaABi12xhm-105" value="+" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#143642;rounded=0;" vertex="1" connectable="0" parent="nOU4_NgVh6XaABi12xhm-104">
+          <mxGeometry x="0.5453" y="-4" relative="1" as="geometry">
+            <mxPoint y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nOU4_NgVh6XaABi12xhm-106" value="Battery Enclosure" style="swimlane;whiteSpace=wrap;html=1;spacingLeft=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="10" width="130" height="230" as="geometry">
+            <mxRectangle x="130" y="170" width="140" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nOU4_NgVh6XaABi12xhm-107" value="6S LiPo Battery&lt;div&gt;6000 mAh&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="nOU4_NgVh6XaABi12xhm-106">
+          <mxGeometry x="10" y="30" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nOU4_NgVh6XaABi12xhm-108" value="&lt;p style=&quot;line-height: 70%;&quot;&gt;DE-9&lt;/p&gt;" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.miscellaneous.small_d_connector;horizontal=1;spacingLeft=0;spacingBottom=0;spacing=0;spacingTop=-35;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;rounded=0;" vertex="1" parent="nOU4_NgVh6XaABi12xhm-106">
+          <mxGeometry x="10" y="190" width="65" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nOU4_NgVh6XaABi12xhm-109" value="&lt;pre style=&quot;font-size: 6px; line-height: 0%;&quot;&gt;Balancing Lead&lt;/pre&gt;" style="verticalLabelPosition=bottom;shadow=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transmission.8_line_bus;rotation=90;spacingLeft=0;spacingTop=-6;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;rounded=0;" vertex="1" parent="nOU4_NgVh6XaABi12xhm-106">
+          <mxGeometry x="10" y="149.04000000000002" width="58.99" height="22.87" as="geometry" />
+        </mxCell>
+        <mxCell id="nOU4_NgVh6XaABi12xhm-110" value="XT-90" style="whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=0;labelBackgroundColor=none;" vertex="1" parent="nOU4_NgVh6XaABi12xhm-106">
+          <mxGeometry x="85" y="190" width="35" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nOU4_NgVh6XaABi12xhm-111" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.863;entryY=0.99;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#A8201A;fontColor=default;fillColor=#FAE5C7;shape=link;edgeStyle=elbowEdgeStyle;elbow=vertical;labelBackgroundColor=none;" edge="1" parent="nOU4_NgVh6XaABi12xhm-106">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="102.21714285714289" y="190" as="sourcePoint" />
+            <mxPoint x="102.29000000000006" y="129" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nOU4_NgVh6XaABi12xhm-112" value="&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;monospace&quot; style=&quot;font-size: 7px;&quot;&gt;Main Leads&lt;/font&gt;&lt;/pre&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;textDirection=vertical-lr;spacingTop=-16;spacingLeft=-22;fontSize=6;rounded=0;labelBackgroundColor=none;" vertex="1" connectable="0" parent="nOU4_NgVh6XaABi12xhm-111">
+          <mxGeometry x="-0.3282" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nOU4_NgVh6XaABi12xhm-113" value="&lt;pre style=&quot;font-size: 6px; line-height: 0%;&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="verticalLabelPosition=bottom;shadow=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transmission.8_line_bus;rotation=90;spacingLeft=0;spacingTop=-6;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="250" width="58.99" height="22.87" as="geometry" />
+        </mxCell>
+        <mxCell id="nOU4_NgVh6XaABi12xhm-114" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="280" as="targetPoint" />
+            <mxPoint x="540" y="230" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nOU4_NgVh6XaABi12xhm-115" value="-" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#143642;rounded=0;" vertex="1" connectable="0" parent="nOU4_NgVh6XaABi12xhm-114">
+          <mxGeometry x="0.5191" y="-2" relative="1" as="geometry">
+            <mxPoint x="2" y="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nOU4_NgVh6XaABi12xhm-116" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="280" as="targetPoint" />
+            <mxPoint x="520" y="230" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nOU4_NgVh6XaABi12xhm-117" value="+" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#143642;rounded=0;" vertex="1" connectable="0" parent="nOU4_NgVh6XaABi12xhm-116">
+          <mxGeometry x="0.5453" y="-4" relative="1" as="geometry">
+            <mxPoint y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nOU4_NgVh6XaABi12xhm-118" value="DALY Smart BMS w/ CAN bus" style="whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
+          <mxGeometry x="20" y="290" width="102.5" height="150" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
