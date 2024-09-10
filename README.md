@@ -24,7 +24,7 @@
 ## Full Block Diagram
 <details>
   <summary>Show Diagram</summary>
-  TBD
+  <img src="https://raw.githubusercontent.com/roboticsatiowa/Documents-and-Resources/main/Diagrams/RoverFullBlockDiagram.svg">
 </details>
 
 <!-- codebase -->
