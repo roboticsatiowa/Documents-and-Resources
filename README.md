@@ -84,8 +84,15 @@ Teensy is a line of microcontrollers known for its superior compute performance 
 </div>
     This is a 6000 mah 6S LiPo battery. This means that it contains 6 lithium polymer (LiPo) cells in series and has a total capacity of 6000 milliamp-hours (1 amp-hour per cell). a LiPo battery has a minimum and maximum voltage of 3.2 and 4.2 volts respectivly. This means there is a total range of 19.2 to 25.2 volts. If the battery is overcharged or over discharged outside this range it will degrade in performance rapidly and immediately. Use extreme caution not to overcharge or overdischarge the batteries. 
 
-## Full Block Diagram
-<img src="https://raw.githubusercontent.com/roboticsatiowa/Documents-and-Resources/main/Diagrams/RoverFullBlockDiagram.svg">
+## Diagrams
+<details>
+  <summary>Full Rover Wiring Diagram</summary>
+  <img src="https://raw.githubusercontent.com/roboticsatiowa/Documents-and-Resources/main/Diagrams/RoverFullBlockDiagram.svg">
+</details>
+<details>
+  <summary>High Level Software</summary>
+  TODO
+</details>
 
 ## Acronyms and Terminology
 
