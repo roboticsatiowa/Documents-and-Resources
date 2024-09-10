@@ -21,6 +21,12 @@
 - [Helpful Resources](#helpfull-resources)
 - [Authors](#authors)
 
+## Full Block Diagram
+<details>
+  <summary>Show Diagram</summary>
+  TBD
+</details>
+
 <!-- codebase -->
 ## Codebase
 
