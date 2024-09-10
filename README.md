@@ -17,13 +17,11 @@
   - [Sabertooth 2x25 Motor Controller](#sabertooth-2x25-motor-controller)
   - [Raspberry Pi 4 Model B](#raspberry-pi-4-model-b)
   - [Teensy 4.1](#teensy-41)
+  - [Battery](#battery)
+- [Block Diagram](#full-block-diagram)
 - [Acronyms and Terminology](#acronyms-and-terminology)
-- [Helpful Resources](#helpfull-resources)
+- [Helpful Resources](#helpful-resources)
 - [Authors](#authors)
-
-## Full Block Diagram
-<img src="https://raw.githubusercontent.com/roboticsatiowa/Documents-and-Resources/main/Diagrams/RoverFullBlockDiagram.svg">
-
 
 <!-- codebase -->
 ## Codebase
@@ -86,6 +84,9 @@ Teensy is a line of microcontrollers known for its superior compute performance 
 </div>
     This is a 6000 mah 6S LiPo battery. This means that it contains 6 lithium polymer (LiPo) cells in series and has a total capacity of 6000 milliamp-hours (1 amp-hour per cell). a LiPo battery has a minimum and maximum voltage of 3.2 and 4.2 volts respectivly. This means there is a total range of 19.2 to 25.2 volts. If the battery is overcharged or over discharged outside this range it will degrade in performance rapidly and immediately. Use extreme caution not to overcharge or overdischarge the batteries. 
 
+## Full Block Diagram
+<img src="https://raw.githubusercontent.com/roboticsatiowa/Documents-and-Resources/main/Diagrams/RoverFullBlockDiagram.svg">
+
 ## Acronyms and Terminology
 
 | Word/Acronym | Acronym Definition                  | Description                                                                                          | Additional links/information |
@@ -114,7 +115,7 @@ Teensy is a line of microcontrollers known for its superior compute performance 
 - Foxglove Studio
   - [Website](https://foxglove.dev/)
 - Zenoh middleware
-  - [](https://zenoh.io/blog/2021-09-28-iac-experiences-from-the-trenches/)
+  - [Website](https://zenoh.io/blog/2021-09-28-iac-experiences-from-the-trenches/)
 ## ✍️ Authors <a name = "authors"></a>
 
 - [@ethanholter](https://github.com/ethanholter) - Responsible for this mess :\)
