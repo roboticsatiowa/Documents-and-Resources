@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.12">
   <diagram name="Page-1" id="U4LzexEA5z4gXmBC9XQn">
-    <mxGraphModel dx="2206" dy="1206" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1247" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -102,7 +102,7 @@
             <mxPoint x="190" y="60" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CXnemEisMQlB7KgPm6j0-1" value="Onboard Compute Subsystem" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fae5c7;collapsible=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="CXnemEisMQlB7KgPm6j0-1" value="Onboard Compute Subsystem" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fae5c7;collapsible=0;strokeWidth=1;strokeColor=#69b7b7;" vertex="1" parent="1">
           <mxGeometry x="240" y="540" width="470" height="210" as="geometry" />
         </mxCell>
         <mxCell id="CXnemEisMQlB7KgPm6j0-29" style="edgeStyle=orthogonalEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#030000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#143642;labelBackgroundColor=default;endArrow=classic;fillColor=#FAE5C7;width=6.666666666666664;" edge="1" parent="CXnemEisMQlB7KgPm6j0-1" source="CXnemEisMQlB7KgPm6j0-27" target="CXnemEisMQlB7KgPm6j0-28">
