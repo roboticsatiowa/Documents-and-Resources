@@ -22,10 +22,8 @@
 - [Authors](#authors)
 
 ## Full Block Diagram
-<details>
-  <summary>Show Diagram</summary>
-  <img src="https://raw.githubusercontent.com/roboticsatiowa/Documents-and-Resources/main/Diagrams/RoverFullBlockDiagram.svg">
-</details>
+<img src="https://raw.githubusercontent.com/roboticsatiowa/Documents-and-Resources/main/Diagrams/RoverFullBlockDiagram.svg">
+
 
 <!-- codebase -->
 ## Codebase
