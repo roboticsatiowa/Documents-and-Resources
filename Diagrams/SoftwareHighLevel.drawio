@@ -1,9 +1,166 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.12">
   <diagram name="Page-1" id="UCRafNW9Ru2ihdA-WiCf">
-    <mxGraphModel>
+    <mxGraphModel dx="1500" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="4IN76eIzPRYGDq-W18BX-2" value="Base Station" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="610" y="70" width="310" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="4IN76eIzPRYGDq-W18BX-73" value="Docker Container" style="swimlane;whiteSpace=wrap;html=1;startSize=20;collapsible=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="4IN76eIzPRYGDq-W18BX-2">
+          <mxGeometry x="10" y="130" width="120" height="120" as="geometry">
+            <mxRectangle x="70" y="100" width="70" height="70" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4IN76eIzPRYGDq-W18BX-74" value="Zenoh ROS2 Middleware" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="4IN76eIzPRYGDq-W18BX-73">
+          <mxGeometry x="30" y="40" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4IN76eIzPRYGDq-W18BX-1" value="Rover" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="70" width="550" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="4IN76eIzPRYGDq-W18BX-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="4IN76eIzPRYGDq-W18BX-1" source="4IN76eIzPRYGDq-W18BX-3" target="4IN76eIzPRYGDq-W18BX-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4IN76eIzPRYGDq-W18BX-3" value="Docker Container" style="swimlane;whiteSpace=wrap;html=1;startSize=20;collapsible=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="4IN76eIzPRYGDq-W18BX-1">
+          <mxGeometry x="10" y="30" width="220" height="300" as="geometry">
+            <mxRectangle x="70" y="100" width="70" height="70" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4IN76eIzPRYGDq-W18BX-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="4IN76eIzPRYGDq-W18BX-3" source="4IN76eIzPRYGDq-W18BX-11" target="4IN76eIzPRYGDq-W18BX-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4IN76eIzPRYGDq-W18BX-11" value="Video Streamer Node" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="4IN76eIzPRYGDq-W18BX-3">
+          <mxGeometry x="10" y="120" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4IN76eIzPRYGDq-W18BX-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="4IN76eIzPRYGDq-W18BX-3" source="4IN76eIzPRYGDq-W18BX-15" target="4IN76eIzPRYGDq-W18BX-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4IN76eIzPRYGDq-W18BX-15" value="Video Streamer Node" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="4IN76eIzPRYGDq-W18BX-3">
+          <mxGeometry x="80" y="120" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4IN76eIzPRYGDq-W18BX-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="4IN76eIzPRYGDq-W18BX-3" source="4IN76eIzPRYGDq-W18BX-16" target="4IN76eIzPRYGDq-W18BX-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4IN76eIzPRYGDq-W18BX-16" value="Video Streamer Node" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="4IN76eIzPRYGDq-W18BX-3">
+          <mxGeometry x="150" y="120" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4IN76eIzPRYGDq-W18BX-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="4IN76eIzPRYGDq-W18BX-3" source="4IN76eIzPRYGDq-W18BX-17" target="4IN76eIzPRYGDq-W18BX-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="40" y="280" />
+              <mxPoint x="110" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4IN76eIzPRYGDq-W18BX-17" value="H.264 Transport Node" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="4IN76eIzPRYGDq-W18BX-3">
+          <mxGeometry x="10" y="210" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4IN76eIzPRYGDq-W18BX-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="4IN76eIzPRYGDq-W18BX-3" source="4IN76eIzPRYGDq-W18BX-19" target="4IN76eIzPRYGDq-W18BX-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="280" />
+              <mxPoint x="110" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4IN76eIzPRYGDq-W18BX-19" value="H.264 Transport Node" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="4IN76eIzPRYGDq-W18BX-3">
+          <mxGeometry x="80" y="210" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4IN76eIzPRYGDq-W18BX-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="4IN76eIzPRYGDq-W18BX-3" source="4IN76eIzPRYGDq-W18BX-20" target="4IN76eIzPRYGDq-W18BX-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="280" />
+              <mxPoint x="110" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4IN76eIzPRYGDq-W18BX-20" value="H.264 Transport Node" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="4IN76eIzPRYGDq-W18BX-3">
+          <mxGeometry x="150" y="210" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4IN76eIzPRYGDq-W18BX-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="4IN76eIzPRYGDq-W18BX-3" source="4IN76eIzPRYGDq-W18BX-36" target="4IN76eIzPRYGDq-W18BX-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4IN76eIzPRYGDq-W18BX-36" value="Camera Hardware" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="4IN76eIzPRYGDq-W18BX-3">
+          <mxGeometry x="10" y="30" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4IN76eIzPRYGDq-W18BX-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="4IN76eIzPRYGDq-W18BX-3" source="4IN76eIzPRYGDq-W18BX-39" target="4IN76eIzPRYGDq-W18BX-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4IN76eIzPRYGDq-W18BX-39" value="Camera Hardware" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="4IN76eIzPRYGDq-W18BX-3">
+          <mxGeometry x="80" y="30" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4IN76eIzPRYGDq-W18BX-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="4IN76eIzPRYGDq-W18BX-3" source="4IN76eIzPRYGDq-W18BX-40" target="4IN76eIzPRYGDq-W18BX-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4IN76eIzPRYGDq-W18BX-40" value="Camera Hardware" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="4IN76eIzPRYGDq-W18BX-3">
+          <mxGeometry x="150" y="30" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4IN76eIzPRYGDq-W18BX-34" value="Docker Container" style="swimlane;whiteSpace=wrap;html=1;startSize=20;collapsible=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="4IN76eIzPRYGDq-W18BX-1">
+          <mxGeometry x="240" y="30" width="170" height="100" as="geometry">
+            <mxRectangle x="70" y="100" width="70" height="70" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4IN76eIzPRYGDq-W18BX-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="4IN76eIzPRYGDq-W18BX-34" source="4IN76eIzPRYGDq-W18BX-43" target="4IN76eIzPRYGDq-W18BX-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4IN76eIzPRYGDq-W18BX-43" value="ZED-F9P&lt;div&gt;Hardware&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="4IN76eIzPRYGDq-W18BX-34">
+          <mxGeometry x="10" y="30" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4IN76eIzPRYGDq-W18BX-45" value="GPS Publisher Node" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="4IN76eIzPRYGDq-W18BX-34">
+          <mxGeometry x="100" y="30" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4IN76eIzPRYGDq-W18BX-48" value="Docker Container" style="swimlane;whiteSpace=wrap;html=1;startSize=20;collapsible=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="4IN76eIzPRYGDq-W18BX-1">
+          <mxGeometry x="240" y="140" width="170" height="190" as="geometry">
+            <mxRectangle x="70" y="100" width="70" height="70" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4IN76eIzPRYGDq-W18BX-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="4IN76eIzPRYGDq-W18BX-48" source="4IN76eIzPRYGDq-W18BX-49" target="4IN76eIzPRYGDq-W18BX-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4IN76eIzPRYGDq-W18BX-49" value="Teensy 4.1 Hardware" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="4IN76eIzPRYGDq-W18BX-48">
+          <mxGeometry x="10" y="30" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4IN76eIzPRYGDq-W18BX-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="4IN76eIzPRYGDq-W18BX-48" source="4IN76eIzPRYGDq-W18BX-50" target="4IN76eIzPRYGDq-W18BX-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4IN76eIzPRYGDq-W18BX-50" value="Simple Hardware Interface Node" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="4IN76eIzPRYGDq-W18BX-48">
+          <mxGeometry x="100" y="30" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4IN76eIzPRYGDq-W18BX-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="4IN76eIzPRYGDq-W18BX-48" source="4IN76eIzPRYGDq-W18BX-69" target="4IN76eIzPRYGDq-W18BX-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4IN76eIzPRYGDq-W18BX-69" value="Joy Node (optional)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="4IN76eIzPRYGDq-W18BX-48">
+          <mxGeometry x="100" y="120" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4IN76eIzPRYGDq-W18BX-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="4IN76eIzPRYGDq-W18BX-48" source="4IN76eIzPRYGDq-W18BX-70" target="4IN76eIzPRYGDq-W18BX-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4IN76eIzPRYGDq-W18BX-70" value="PS5 Controller&lt;div&gt;Hardware (optional)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="4IN76eIzPRYGDq-W18BX-48">
+          <mxGeometry x="10" y="120" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4IN76eIzPRYGDq-W18BX-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="4IN76eIzPRYGDq-W18BX-1" source="4IN76eIzPRYGDq-W18BX-45" target="4IN76eIzPRYGDq-W18BX-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4IN76eIzPRYGDq-W18BX-61" value="Docker Container" style="swimlane;whiteSpace=wrap;html=1;startSize=20;collapsible=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="4IN76eIzPRYGDq-W18BX-1">
+          <mxGeometry x="420" y="130" width="120" height="120" as="geometry">
+            <mxRectangle x="70" y="100" width="70" height="70" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4IN76eIzPRYGDq-W18BX-62" value="Zenoh ROS2 Middleware" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="4IN76eIzPRYGDq-W18BX-61">
+          <mxGeometry x="30" y="40" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4IN76eIzPRYGDq-W18BX-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="4IN76eIzPRYGDq-W18BX-1" source="4IN76eIzPRYGDq-W18BX-50" target="4IN76eIzPRYGDq-W18BX-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4IN76eIzPRYGDq-W18BX-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="4IN76eIzPRYGDq-W18BX-1" source="4IN76eIzPRYGDq-W18BX-62" target="4IN76eIzPRYGDq-W18BX-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4IN76eIzPRYGDq-W18BX-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;shape=flexArrow;startArrow=block;fillColor=#f5f5f5;strokeColor=#666666;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4IN76eIzPRYGDq-W18BX-62" target="4IN76eIzPRYGDq-W18BX-74">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="269.52941176470586" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
