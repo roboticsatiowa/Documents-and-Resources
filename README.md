@@ -91,7 +91,7 @@ Teensy is a line of microcontrollers known for its superior compute performance 
 </details>
 <details>
   <summary>High Level Software</summary>
-  TODO
+  <img src="https://raw.githubusercontent.com/roboticsatiowa/Documents-and-Resources/refs/heads/main/Diagrams/SoftwareHighLevel.svg">
 </details>
 
 ## Acronyms and Terminology
