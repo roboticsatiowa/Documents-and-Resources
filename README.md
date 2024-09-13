@@ -117,6 +117,8 @@ Teensy is a line of microcontrollers known for its superior compute performance 
 - Raspberry Pi
   - [Website](https://www.raspberrypi.org/)
   - [Raspberry Pi in 100 Seconds (YouTube)](https://www.youtube.com/watch?v=eZ74x6dVYes)
+- Linux
+  - [Map of linux distributions](https://distrowatch.com/images/other/distro-family-tree.png) 
 - Foxglove Studio
   - [Website](https://foxglove.dev/)
 - Zenoh middleware
