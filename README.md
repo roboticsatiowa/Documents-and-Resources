@@ -119,13 +119,14 @@ Teensy is a line of microcontrollers known for its superior compute performance 
   - [Raspberry Pi in 100 Seconds (YouTube)](https://www.youtube.com/watch?v=eZ74x6dVYes)
 - Linux
   - [Map of linux distributions](https://distrowatch.com/images/other/distro-family-tree.png) 
-- Foxglove Studio
-  - [Website](https://foxglove.dev/)
 - Zenoh middleware
   - [Website](https://zenoh.io/blog/2021-09-28-iac-experiences-from-the-trenches/)
-- Tools
+- UI Tools/Applications
+  - [webviz](https://github.com/cruise-automation/webviz)
+  - [Website](https://foxglove.dev/)
+  - [ROS2 Web Tools](https://robotwebtools.github.io/)
+- Utilities
   - [URDF Creation](https://www.roboeverything.com/)
-  - [ROS2 Web Tools IMPORTANT](https://robotwebtools.github.io/)
 ## ✍️ Authors <a name = "authors"></a>
 
 - [@ethanholter](https://github.com/ethanholter) - Responsible for this mess :\)
