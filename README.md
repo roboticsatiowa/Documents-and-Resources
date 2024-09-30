@@ -122,8 +122,8 @@ Teensy is a line of microcontrollers known for its superior compute performance 
 - Zenoh middleware
   - [Website](https://zenoh.io/blog/2021-09-28-iac-experiences-from-the-trenches/)
 - UI Tools/Applications
-  - [webviz](https://github.com/cruise-automation/webviz)
-  - [Website](https://foxglove.dev/)
+  - [Webviz](https://github.com/cruise-automation/webviz)
+  - [Foxglove Studio](https://foxglove.dev/)
   - [ROS2 Web Tools](https://robotwebtools.github.io/)
 - Utilities
   - [URDF Creation](https://www.roboeverything.com/)
