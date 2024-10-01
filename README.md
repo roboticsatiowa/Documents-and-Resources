@@ -50,7 +50,7 @@ Receives input from a microcontroller and high voltage from a power supply to dr
 
 #### Sabertooth 2x25 Motor Controller
 <div>
-  Datasheet: <a href=https://github.com/roboticsatiowa/Documents-and-Resources/blob/main/Datasheets/Sabertooth2x25.pdf>Local</a> - <a href=TBD>External</a><br>
+  Datasheet: <a href=https://github.com/roboticsatiowa/Documents-and-Resources/blob/main/Datasheets/Sabertooth2x25.pdf>Local</a> - <a href=https://www.dimensionengineering.com/datasheets/Sabertooth2x25.pdf>External</a><br>
   <img height=150px src=https://github.com/roboticsatiowa/Documents-and-Resources/blob/main/Media/Sabertooth.png?raw=true>
 </div>
 
