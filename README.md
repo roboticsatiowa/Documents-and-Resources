@@ -110,6 +110,7 @@ Teensy is a line of microcontrollers known for its superior compute performance 
   - [What is ROS2? (YouTube)](https://www.youtube.com/watch?v=7TVWlADXwRw)
   - [Articulate Robotics (YouTube)](https://www.youtube.com/@ArticulatedRobotics)
   - [ROS2 on Mac](https://medium.com/@arohanaday/how-i-set-up-ros-2-on-my-macbook-using-docker-without-losing-my-sanity-fe6e55857cc2)
+  - [ros2_control (YouTube}](https://www.youtube.com/watch?v=4VVrTCnxvSw)
 - Docker
   - [Website](https://www.docker.com/)
   - [Docker in 100 Seconds (YouTube)](https://www.youtube.com/watch?v=Gjnup-PuquQ)
