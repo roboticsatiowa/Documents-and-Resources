@@ -127,6 +127,8 @@ Teensy is a line of microcontrollers known for its superior compute performance 
   - [Webviz](https://github.com/cruise-automation/webviz)
   - [Foxglove Studio](https://foxglove.dev/)
   - [ROS2 Web Tools](https://robotwebtools.github.io/)
+- Intel Realsense
+  - [Realsense ROS2](https://github.com/IntelRealSense/realsense-ros)
 - Utilities
   - [URDF Creation](https://www.roboeverything.com/)
 ## ✍️ Authors <a name = "authors"></a>
