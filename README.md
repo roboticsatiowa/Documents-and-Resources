@@ -115,6 +115,7 @@ Teensy is a line of microcontrollers known for its superior compute performance 
   - [Website](https://www.docker.com/)
   - [Docker in 100 Seconds (YouTube)](https://www.youtube.com/watch?v=Gjnup-PuquQ)
   - [Learn Docker in 7 Easy Steps (YouTube)](https://www.youtube.com/watch?v=gAkwW2tuIqE)
+  - [Creating a ros workspace with docker](https://buschbapti.medium.com/creating-a-ros-or-ros2-workspace-in-docker-part-1-912529c87708)
 - Raspberry Pi
   - [Website](https://www.raspberrypi.org/)
   - [Raspberry Pi in 100 Seconds (YouTube)](https://www.youtube.com/watch?v=eZ74x6dVYes)
