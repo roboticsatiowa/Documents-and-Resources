@@ -132,6 +132,7 @@ Teensy is a line of microcontrollers known for its superior compute performance 
   - [Realsense ROS2](https://github.com/IntelRealSense/realsense-ros)
 - Utilities
   - [URDF Creation](https://www.roboeverything.com/)
+  - [CAD Filetype Converter](https://convert3d.org/convert)
 - Batteries
   - [7s wiring tutorial](https://www.dalybms.com/7s-bms-wiring-tutorial/)
 ## ✍️ Authors <a name = "authors"></a>
