@@ -113,6 +113,7 @@ Teensy is a line of microcontrollers known for its superior compute performance 
   - [ros2_control (YouTube}](https://www.youtube.com/watch?v=4QKsDf1c4hc)
   - [URDF Tools](https://docs.ros.org/en/humble/Tutorials/Intermediate/URDF/Exporting-an-URDF-File.html)
   - [Covariance Estimation](https://github.com/Sollimann/CleanIt/blob/main/autonomy/src/slam/README.md)
+  - [Skid Steer Modeling](https://github.com/RIVeR-Lab/multiterrain-gp-model?tab=readme-ov-file)
 - Docker
   - [Website](https://www.docker.com/)
   - [Docker in 100 Seconds (YouTube)](https://www.youtube.com/watch?v=Gjnup-PuquQ)
