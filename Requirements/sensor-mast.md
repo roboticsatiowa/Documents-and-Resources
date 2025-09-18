@@ -26,16 +26,14 @@ This project involves designing, building, and programming a "mast" for the rove
   - How will we communicate with the sensors in the top? Will cables get twisted when it spins?
   - Remember the end goal. What is the purpose of this project? Always be scrutinizing if something is worth your time.
   - How heavy will this be? We have a mass budget of 50 Kg and are already walking the line.
-  - It will be difficult to get this in the van. Is it easier to make this foldable or removable? We only get 15 minutes to set up the robot and basestation.
+  - It will be difficult to get this in the van. Is it easier to make this foldable, extendable, or removable? We only get 15 minutes to set up the robot and basestation.
   - Consider an engineered faliure point. A rollover is a likely event. Where can it break to minimize damage to the rest of the assembly
 
 
-
-
+## Reference Images
 
 ![](https://assets.science.nasa.gov/dynamicimage/assets/science/psd/mars/resources/detail_files/2/4/24223_PIA23316-web.jpg?w=1600&h=1068&fit=clip&crop=faces%2Cfocalpoint)
 
 ![](https://buymarsrovers.com/wp-content/uploads/2023/01/Mars_2020_Perseverance_Rover_Replica_mast_navcam_mastcam_supercam_standard-1024x576.jpg)
 
 ![](https://pds-atmospheres.nmsu.edu/data_and_services/atmospheres_data/PERSEVERANCE/images/meda_pic_2.png)
-
